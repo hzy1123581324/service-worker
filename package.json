@@ -1,0 +1,93 @@
+{
+  "name": "z-service-worker",
+  "version": "0.0.1",
+  "id": "z-service-worker",
+  "description": "这是个service-worker插件",
+  "main": "cacheWrapper.js",
+  "scripts": {
+    "tests-only": "node './test/index'",
+    "test": "npm run tests-only"
+  },
+  "repository": "https://github.com/hzy1123581324/service-worker.git",
+  "homepage": "https://github.com/hzy1123581324/service-worker/blob/main/README.md",
+  "keywords": [
+    "service-worker",
+    "sw"
+  ],
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": "keepachangelog",
+    "unreleased": false,
+    "commitLimit": false,
+    "backfillLimit": false,
+    "hideCredit": true
+  },
+  "author": "hzy1123581324",
+  "license": "ISC",
+  "displayName": "z-service-worker",
+  "dcloudext": {
+    "category": [
+      "JS SDK",
+      "通用 SDK"
+    ],
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "无",
+      "permissions": "无"
+    },
+    "npmurl": "https://www.npmjs.com/package/z-service-worker"
+  },
+  "uni_modules": {
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "u",
+          "vue3": "u"
+        },
+        "App": {
+          "app-vue": "u",
+          "app-nvue": "u"
+        },
+        "H5-mobile": {
+          "Safari": "u",
+          "Android Browser": "u",
+          "微信浏览器(Android)": "u",
+          "QQ浏览器(Android)": "u"
+        },
+        "H5-pc": {
+          "Chrome": "u",
+          "IE": "u",
+          "Edge": "u",
+          "Firefox": "u",
+          "Safari": "u"
+        },
+        "小程序": {
+          "微信": "u",
+          "阿里": "u",
+          "百度": "u",
+          "字节跳动": "u",
+          "QQ": "u"
+        },
+        "快应用": {
+          "华为": "u",
+          "联盟": "u"
+        }
+      }
+    }
+  }
+}
